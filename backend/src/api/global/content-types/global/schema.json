@@ -5,13 +5,15 @@
     "singularName": "global",
     "pluralName": "globals",
     "displayName": "Global",
-    "name": "global"
+    "name": "global",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "siteName": {
       "type": "string",
@@ -24,10 +26,21 @@
       "required": true
     },
     "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
+      ]
+    },
+    "navTitle": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false

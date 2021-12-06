@@ -3,12 +3,16 @@ import Link from "next/link"
 import NextImage from "./image"
 
 const Card = ({ article }) => {
+  const styleImg = {
+    width: 30,
+    height: 30,
+  }
   return (
     <Link href={`/article/${article.attributes.slug}`}>
       <a className="uk-link-reset">
         <div className="uk-card uk-card-muted">
           <div className="uk-card-media-top">
-            <NextImage image={article.attributes.image} />
+            <NextImage image={article.attributes.image} style={styleImg} />
           </div>
           <div className="uk-card-body">
             <p id="category" className="uk-text-uppercase">

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_section1s",
+  "info": {
+    "displayName": "section1",
+    "icon": "praying-hands"
+  },
+  "options": {},
+  "attributes": {
+    "fondo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "texto": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

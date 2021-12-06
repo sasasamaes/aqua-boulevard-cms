@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "direccion": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descargo": {
+      "type": "string"
+    },
+    "descargo2": {
+      "type": "string"
+    },
+    "boton": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,15 @@
+import { Container, Row, Col } from "react-bootstrap"
 import Nav from "./nav"
 
-const Layout = ({ children, categories, seo }) => (
-  <>
-    <Nav categories={categories} />
-    {children}
-  </>
+const Layout = ({ children, seo, global }) => (
+  <Container fluid>
+    <Row>
+      <Col>
+        <Nav global={global} />
+      </Col>
+    </Row>
+    <Row className="content">{children}</Row>
+  </Container>
 )
 
 export default Layout

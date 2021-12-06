@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_section2s",
+  "info": {
+    "displayName": "section2",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

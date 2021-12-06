@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_navs",
+  "info": {
+    "displayName": "nav",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

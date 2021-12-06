@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "boton": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

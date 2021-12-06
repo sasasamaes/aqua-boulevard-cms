@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_master_plans",
+  "info": {
+    "displayName": "master plan",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "plano": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "boton": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "descargo": {
+      "type": "text"
+    }
+  }
+}
