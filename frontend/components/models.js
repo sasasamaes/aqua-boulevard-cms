@@ -3,8 +3,6 @@ import { Row, Col, Button, Modal } from "react-bootstrap"
 import NextImage from "./image"
 
 const Models = ({ models, lg }) => {
-  console.log(models)
-
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)

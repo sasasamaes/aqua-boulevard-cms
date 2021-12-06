@@ -1,3 +1,10 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
 a {
   text-decoration: none;
 }
@@ -23,10 +30,144 @@ img:hover {
   background-color: #011523 !important;
 }
 .content {
-  padding-top: 3rem !important;
+  padding-top: 3.5rem !important;
 }
 
 .navbar-img {
   width: 20px !important;
   height: 20px !important;
+}
+
+/* NavBar */
+#navbar {
+  height: 40px;
+}
+
+#navbar img {
+  position: inherit !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* form */
+.form-container {
+  height: 89vh;
+}
+.form-container .form-container-logo {
+  padding-top: 0 !important;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+.form-container .form-container-info {
+  height: 25vh;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.form-container .form-container-form {
+  height: 35vh;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.form-container .form-container-disclaimer {
+  height: 15vh;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-container img {
+  width: 180px !important;
+  height: 180px !important;
+}
+.form-container p {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.form-container h2 {
+  font-size: 1.5rem;
+  font-style: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.form-container span {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-style: 500;
+  color: #fff;
+  text-align: center;
+}
+/* slider home */
+.slider-container {
+  padding: 0;
+  height: 89vh;
+}
+.slider-container .carousel {
+  height: 100%;
+}
+.slider-container .carousel-indicators {
+  margin: 0;
+}
+.slider-container .carousel-item {
+  height: 90%;
+}
+
+/* global */
+.disclaimer {
+  font-size: 0.6rem;
+  text-align: right;
+  width: 40%;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.form-control {
+  padding: 0.175rem 0.8rem;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  border-radius: 0;
+}
+.form-control + .form-control {
+  margin-top: 10px;
+}
+.btn-primary {
+  background-color: #db9d49;
+  border: none;
+  border-radius: 0;
+  color: #0b0b0b;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+/* service-container */
+.service-container {
+}
+.service-container .service-item {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1.5rem;
+}
+
+.service-container .service-item h3 {
+  color: white;
+  font-size: 1.2rem;
+}
+/* master-container */
+.master-container {
+  min-height: 75vh;
+  align-content: center;
+  display: flex;
+}
+.master-container .row {
+  justify-content: flex-end;
+  align-items: center;
 }

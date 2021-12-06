@@ -5,7 +5,7 @@ import NextImage from "./image"
 const HomeSlider = ({ homeSlider, lg }) => {
   return (
     <Col lg={lg} className="slider-container text-light">
-      <Carousel>
+      <Carousel indicators={false}>
         {homeSlider?.map((slide, index) => (
           <Carousel.Item key={`slide-${index}`}>
             <NextImage image={slide.attributes.Fondo} />

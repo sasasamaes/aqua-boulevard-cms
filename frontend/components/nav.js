@@ -9,7 +9,7 @@ const Nav = ({ global }) => {
   }
   return (
     <Navbar fixed="top" bg="dark" variant="dark">
-      <Container fluid>
+      <Container fluid id="navbar">
         <Row>
           <Col lg={4}>
             <Navbar.Brand href="/">

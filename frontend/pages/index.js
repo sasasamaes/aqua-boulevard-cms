@@ -29,7 +29,7 @@ const Home = ({
       <HomeSlider homeSlider={homeSlider} lg={9} />
       <FormComponent lg={3} homepage={homepage} />
       <ServiceComponent lg={12} services={services} />
-      <MasterPlan lg={12} homepage={homepage} />
+      <MasterPlan lg={12} homepage={homepage} amenities={amenities} />
       <Section1 lg={12} homepage={homepage} />
       <Banner lg={12} homepage={homepage} />
       <Amenities lg={12} amenities={amenities} />

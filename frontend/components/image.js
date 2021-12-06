@@ -11,7 +11,6 @@ const Image = ({ image, style, className }) => {
   return (
     <NextImage
       loader={loader}
-      layout="responsive"
       width={width}
       height={height}
       objectFit="contain"
